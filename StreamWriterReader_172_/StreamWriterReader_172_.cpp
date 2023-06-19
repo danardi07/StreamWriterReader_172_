@@ -35,7 +35,7 @@ cout << endl << ">= Membuka dan Membaca File " << endl;
 //merujuk ke sebuah file
 if (infile.is_open()) 
 {
-	//melakukan perulangan setiap baris
+	//melakukan perulangan setiap baris 
 	while (getline(infile, baris))
 	{
 		//dan tampilkan di sini
