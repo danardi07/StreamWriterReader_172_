@@ -33,7 +33,7 @@ infile.open("contohfile.txt");
 
 cout << endl << ">= Membuka dan Membaca File " << endl;
 //merujuk ke sebuah file
-if (infile.is_open())
+if (infile.is_open()) 
 {
 	//melakukan perulangan setiap baris
 	while (getline(infile, baris))
